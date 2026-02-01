@@ -2,7 +2,7 @@
   "obras": [
     {
       "id": 1,
-      "title": "Obra Exemplo 1",
+      "title": "Maria Migalhinha",
       "description": "Esta é uma descrição detalhada da obra que aparecerá no modal quando clicar. Aqui você pode colocar toda a história, inspiração e significado da obra.",
       "shortDescription": "Descrição curta para hover",
       "image": "images/IMG_3999.JPEG",
