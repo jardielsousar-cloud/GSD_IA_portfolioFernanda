@@ -14,29 +14,24 @@
         const div = document.createElement('div');
         div.className = 'gallery__item';
 
-        // Criar estrutura com glightbox
         const link = document.createElement('a');
-        link.href = item.image;
-        link.className = 'glightbox';
-
-        // Criar descrição para o modal do glightbox
-        let description = `<h3>${item.title}</h3>`;
 
         if (type === 'obra') {
-            if (item.description) description += `<p>${item.description}</p>`;
-            if (item.dimensions) description += `<p><strong>Dimensões:</strong> ${item.dimensions}</p>`;
-            if (item.technique) description += `<p><strong>Técnica:</strong> ${item.technique}</p>`;
-            if (item.year) description += `<p><strong>Ano:</strong> ${item.year}</p>`;
-            if (item.status) description += `<p><strong>Status:</strong> ${item.status}</p>`;
-            if (item.price) description += `<p><strong>Preço:</strong> ${item.price}</p>`;
-        } else if (type === 'exposicao') {
+            // Para obras, link para página individual
+            link.href = `obra-${item.id}.html`;
+        } else {
+            // Para exposições, manter glightbox
+            link.href = item.image;
+            link.className = 'glightbox';
+
+            let description = `<h3>${item.title}</h3>`;
             if (item.description) description += `<p>${item.description}</p>`;
             if (item.location) description += `<p><strong>Local:</strong> ${item.location}</p>`;
             if (item.dates) description += `<p><strong>Data:</strong> ${item.dates}</p>`;
             if (item.status) description += `<p><strong>Status:</strong> ${item.status}</p>`;
-        }
 
-        link.setAttribute('data-glightbox', `description: ${description}`);
+            link.setAttribute('data-glightbox', `description: ${description}`);
+        }
 
         // Imagem
         const img = document.createElement('img');
@@ -44,7 +39,6 @@
         img.alt = item.title;
         img.className = 'gallery__item__image';
         img.loading = 'lazy';
-        // Adicionar width e height para prevenir CLS
         img.width = 400;
         img.height = 400;
 
@@ -83,13 +77,6 @@
                 data.obras.forEach(obra => {
                     const item = createGalleryItem(obra, 'obra');
                     galleryObras.appendChild(item);
-                });
-
-                // Inicializar GLightbox
-                const lightbox = GLightbox({
-                    touchNavigation: true,
-                    loop: true,
-                    autoplayVideos: false
                 });
             })
             .catch(error => {

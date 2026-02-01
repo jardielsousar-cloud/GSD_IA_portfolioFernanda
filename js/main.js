@@ -132,22 +132,21 @@
         });
     }
 
-    // Form de contato
+    // Form de contato - mailto
     const formContato = document.getElementById('form-contato');
     if (formContato) {
-        formContato.addEventListener('submit', async (e) => {
-            const submitButton = formContato.querySelector('.form__submit');
-            const originalText = submitButton.textContent;
+        formContato.addEventListener('submit', (e) => {
+            e.preventDefault();
 
-            submitButton.textContent = 'Enviando...';
-            submitButton.disabled = true;
+            const nome = formContato.querySelector('#nome').value;
+            const email = formContato.querySelector('#email').value;
+            const telefone = formContato.querySelector('#telefone').value;
+            const mensagem = formContato.querySelector('#mensagem').value;
 
-            // Formspree ou EmailJS irá processar o envio
-            // Após sucesso, mostrar mensagem
-            setTimeout(() => {
-                submitButton.textContent = originalText;
-                submitButton.disabled = false;
-            }, 1000);
+            const body = `Nome: ${nome}\nEmail: ${email}\nTelefone: ${telefone}\n\nMensagem:\n${mensagem}`;
+            const mailtoLink = `mailto:vulgo.egos@gmail.com?subject=Contato do site&body=${encodeURIComponent(body)}`;
+
+            window.location.href = mailtoLink;
         });
     }
 

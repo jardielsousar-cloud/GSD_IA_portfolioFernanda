@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Obras de Maria Fernanda">
-    <title>Obras - Maria Fernanda</title>
+    <meta name="description" content="Obra Exemplo 2 - Maria Fernanda">
+    <title>Obra Exemplo 2 - Maria Fernanda</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 </head>
 <body>
     <!-- Header -->
@@ -16,7 +15,7 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="obras.html" class="nav__link nav__link--active">Obras</a></li>
+                    <li class="nav__item"><a href="obras.html" class="nav__link">Obras</a></li>
                     <li class="nav__item"><a href="percursos.html" class="nav__link">Percursos</a></li>
                     <li class="nav__item"><a href="processos.html" class="nav__link">Processos</a></li>
                     <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
@@ -25,15 +24,26 @@
         </div>
     </header>
 
-    <!-- Gallery -->
-    <main class="gallery-page">
-        <h2 class="gallery-page__title">Obras</h2>
-        <div class="gallery" id="gallery-obras">
-            <!-- Items loaded from JSON -->
+    <!-- Obra Detail -->
+    <main class="obra-detail">
+        <div class="obra-detail__image">
+            <img src="images/IMG_3999.JPEG" alt="Obra Exemplo 2" loading="eager">
+        </div>
+        <div class="obra-detail__info">
+            <h2 class="obra-detail__title">Obra Exemplo 2</h2>
+            <div class="obra-detail__meta">
+                <p><strong>Técnica:</strong> Aquarela</p>
+                <p><strong>Ano:</strong> 2024</p>
+                <p><strong>Status:</strong> Vendida</p>
+            </div>
+            <div class="obra-detail__description">
+                <p>Cada obra pode ter sua própria descrição personalizada, com informações únicas sobre o processo criativo, materiais utilizados e inspiração.</p>
+            </div>
+            <a href="index.html#contato" class="obra-detail__button">Checar disponibilidade</a>
         </div>
     </main>
 
-    <!-- Contact Modal (same as index) -->
+    <!-- Contact Modal -->
     <div class="modal" id="modal-contato">
         <div class="modal__overlay"></div>
         <div class="modal__content">
@@ -93,8 +103,6 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/gallery.js"></script>
 </body>
 </html>
