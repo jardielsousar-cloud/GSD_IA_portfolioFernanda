@@ -132,21 +132,45 @@
         });
     }
 
-    // Form de contato - mailto
+    // Form de contato - Formspree
     const formContato = document.getElementById('form-contato');
     if (formContato) {
-        formContato.addEventListener('submit', (e) => {
+        formContato.addEventListener('submit', async (e) => {
             e.preventDefault();
 
-            const nome = formContato.querySelector('#nome').value;
-            const email = formContato.querySelector('#email').value;
-            const telefone = formContato.querySelector('#telefone').value;
-            const mensagem = formContato.querySelector('#mensagem').value;
+            const submitButton = formContato.querySelector('.form__submit');
+            const originalText = submitButton.textContent;
 
-            const body = `Nome: ${nome}\nEmail: ${email}\nTelefone: ${telefone}\n\nMensagem:\n${mensagem}`;
-            const mailtoLink = `mailto:vulgo.egos@gmail.com?subject=Contato do site&body=${encodeURIComponent(body)}`;
+            submitButton.textContent = 'Enviando...';
+            submitButton.disabled = true;
 
-            window.location.href = mailtoLink;
+            try {
+                const response = await fetch(formContato.action, {
+                    method: 'POST',
+                    body: new FormData(formContato),
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    alert('Mensagem enviada com sucesso! Retornaremos em breve.');
+                    formContato.reset();
+                    const modal = formContato.closest('.modal');
+                    if (modal) {
+                        modal.classList.remove('active');
+                        document.body.style.overflow = '';
+                    }
+                } else {
+                    throw new Error('Erro ao enviar');
+                }
+            } catch (error) {
+                console.error('Erro:', error);
+                alert('Erro ao enviar mensagem. Tente novamente ou entre em contato por email: vulgo.egos@gmail.com');
+            } finally {
+                submitButton.textContent = originalText;
+                submitButton.disabled = false;
+            }
         });
     }
 
