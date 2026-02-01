@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "WebSearch",
+      "WebFetch(domain:www.patterns.dev)",
+      "WebFetch(domain:dev.to)",
+      "WebFetch(domain:www.sitepoint.com)",
+      "WebFetch(domain:developers.google.com)",
+      "WebFetch(domain:formspree.io)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:web.dev)",
+      "WebFetch(domain:docs.github.com)",
+      "Bash(git check-ignore:*)"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "obras": [
+    {
+      "id": 1,
+      "title": "Obra Exemplo 1",
+      "description": "Esta é uma descrição detalhada da obra que aparecerá no modal quando clicar. Aqui você pode colocar toda a história, inspiração e significado da obra.",
+      "shortDescription": "Descrição curta para hover",
+      "image": "images/obras/obra1.jpg",
+      "thumbnail": "images/obras/obra1-thumb.jpg",
+      "dimensions": "80x100cm",
+      "technique": "Óleo sobre tela",
+      "year": "2025",
+      "status": "Disponível",
+      "price": "R$ 5.000"
+    },
+    {
+      "id": 2,
+      "title": "Obra Exemplo 2",
+      "description": "Cada obra pode ter sua própria descrição personalizada, com informações únicas sobre o processo criativo, materiais utilizados e inspiração.",
+      "shortDescription": "Breve descrição",
+      "image": "images/obras/obra2.jpg",
+      "thumbnail": "images/obras/obra2-thumb.jpg",
+      "dimensions": "60x80cm",
+      "technique": "Aquarela",
+      "year": "2024",
+      "status": "Vendida"
+    },
+    {
+      "id": 3,
+      "title": "Obra Exemplo 3",
+      "description": "Você pode incluir ou omitir campos conforme necessário para cada obra. Por exemplo, esta obra não tem preço listado.",
+      "shortDescription": "Sem preço listado",
+      "image": "images/obras/obra3.jpg",
+      "thumbnail": "images/obras/obra3-thumb.jpg",
+      "technique": "Técnica mista",
+      "year": "2025",
+      "status": "Em exposição"
+    }
+  ]
+}

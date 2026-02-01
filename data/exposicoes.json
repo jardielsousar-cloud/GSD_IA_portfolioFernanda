@@ -1,0 +1,34 @@
+{
+  "exposicoes": [
+    {
+      "id": 1,
+      "title": "Exposição Coletiva 2026",
+      "description": "Descrição detalhada da exposição, incluindo obras apresentadas, tema, curadoria e informações relevantes.",
+      "image": "images/exposicoes/expo1.jpg",
+      "thumbnail": "images/exposicoes/expo1-thumb.jpg",
+      "location": "Galeria de Arte Contemporânea, São Paulo",
+      "dates": "15 de março a 30 de abril de 2026",
+      "status": "Futura"
+    },
+    {
+      "id": 2,
+      "title": "Individual: Paisagens Internas",
+      "description": "Minha primeira exposição individual, apresentando 20 obras que exploram a relação entre espaço interno e externo através de paisagens abstratas.",
+      "image": "images/exposicoes/expo2.jpg",
+      "thumbnail": "images/exposicoes/expo2-thumb.jpg",
+      "location": "Espaço Cultural, Rio de Janeiro",
+      "dates": "10 de janeiro a 28 de fevereiro de 2025",
+      "status": "Passada"
+    },
+    {
+      "id": 3,
+      "title": "Feira de Arte 2024",
+      "description": "Participação na feira com stand próprio, apresentando 15 obras de diferentes séries.",
+      "image": "images/exposicoes/expo3.jpg",
+      "thumbnail": "images/exposicoes/expo3-thumb.jpg",
+      "location": "Centro de Convenções, Belo Horizonte",
+      "dates": "5 a 8 de novembro de 2024",
+      "status": "Passada"
+    }
+  ]
+}
