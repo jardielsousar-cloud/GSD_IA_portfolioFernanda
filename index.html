@@ -72,8 +72,9 @@
             <button class="newsletter__close" aria-label="Fechar">&times;</button>
             <h3 class="newsletter__title">Quer saber em quais feiras e exposições estarei presente?</h3>
             <p class="newsletter__text">Me mande o seu email</p>
-            <form class="newsletter__form" id="form-newsletter">
+            <form class="newsletter__form" id="form-newsletter" action="https://formspree.io/f/xpqlpdpa" method="POST">
                 <input type="email" name="email" class="newsletter__input" placeholder="seu@email.com" required>
+                <input type="hidden" name="_subject" value="Nova inscrição na Newsletter">
                 <button type="submit" class="newsletter__submit">Enviar</button>
             </form>
             <p class="newsletter__privacy">Prometo que só vou te avisar sobre exposições, sem spam</p>

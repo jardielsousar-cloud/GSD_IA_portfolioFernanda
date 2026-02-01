@@ -89,12 +89,11 @@
         });
     }
 
-    // Enviar newsletter para Google Sheets
+    // Enviar newsletter via Formspree
     if (newsletterForm) {
         newsletterForm.addEventListener('submit', async (e) => {
             e.preventDefault();
 
-            const email = newsletterForm.querySelector('input[name="email"]').value;
             const submitButton = newsletterForm.querySelector('.newsletter__submit');
             const originalText = submitButton.textContent;
 
@@ -102,14 +101,11 @@
             submitButton.disabled = true;
 
             try {
-                // CONFIGURE AQUI: URL do seu Google Apps Script Web App
-                const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_SCRIPT_URL';
-
-                const response = await fetch(GOOGLE_SCRIPT_URL, {
+                const response = await fetch(newsletterForm.action, {
                     method: 'POST',
-                    body: JSON.stringify({ email: email }),
+                    body: new FormData(newsletterForm),
                     headers: {
-                        'Content-Type': 'application/json'
+                        'Accept': 'application/json'
                     }
                 });
 
