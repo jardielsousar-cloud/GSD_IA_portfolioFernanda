@@ -48,12 +48,12 @@ button {
    ========================================================================== */
 
 .header {
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 3rem 2rem;
     background-color: #fff;
 }
 
@@ -84,6 +84,11 @@ button {
     font-weight: 300;
     color: #666;
     margin-bottom: 3rem;
+}
+
+.header__subtitle--small {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    margin-bottom: 2rem;
 }
 
 /* ==========================================================================
