@@ -47,6 +47,7 @@ button {
    Header
    ========================================================================== */
 .header {
+    background-color: brown;
     min-height: auto;
     display: flex;
     flex-direction: column;
