@@ -3,7 +3,16 @@
   "depth": "standard",
   "parallelization": true,
   "commit_docs": true,
-  "model_profile": "balanced",
+  "model_profile": "budget",
+  "agent_models": {
+    "gsd-planner": "haiku",
+    "gsd-executor": "haiku",
+    "gsd-debugger": "haiku",
+    "gsd-phase-researcher": "haiku",
+    "gsd-project-researcher": "haiku",
+    "gsd-verifier": "haiku",
+    "gsd-plan-checker": "haiku"
+  },
   "workflow": {
     "research": true,
     "plan_check": true,

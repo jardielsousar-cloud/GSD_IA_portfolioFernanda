@@ -13,7 +13,8 @@
       "WebFetch(domain:web.dev)",
       "WebFetch(domain:docs.github.com)",
       "Bash(git check-ignore:*)",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(dir:*)"
     ]
   }
 }
