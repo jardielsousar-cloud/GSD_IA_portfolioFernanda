@@ -612,7 +612,7 @@ button {
 }
 
 .text-page__content {
-    text-align: center;
+    text-align: left;
 }
 
 .text-page__title {
@@ -630,7 +630,7 @@ button {
 }
 
 .text-page__text {
-    text-align: center;
+    text-align: left;
     line-height: 1.8;
     font-size: 1.1rem;
 }
