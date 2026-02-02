@@ -47,7 +47,6 @@ button {
    Header
    ========================================================================== */
 .header {
-    background-color: brown;
     min-height: auto;
     display: flex;
     flex-direction: column;
@@ -79,7 +78,7 @@ button {
 }
 
 .header__logo {
-    width: 700px;
+    width: 300px;
     max-width: 100%;
     height: auto;
     object-fit: contain;
