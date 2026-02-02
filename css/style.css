@@ -71,6 +71,7 @@ button {
     align-items: center;
 }
 
+
 .header__brand {
     display: flex;
     justify-content: center;
@@ -78,7 +79,7 @@ button {
 }
 
 .header__logo {
-    width: 300px;
+    width: 700px;
     height: auto;
     object-fit: contain;
     display: block;
@@ -114,7 +115,9 @@ button {
    ========================================================================== */
 
 .nav {
-    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .nav__list {
