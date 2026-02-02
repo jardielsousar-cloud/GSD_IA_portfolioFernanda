@@ -78,8 +78,8 @@ button {
 }
 
 .header__logo {
-    width: 32px;
-    height: 32px;
+    width:16px;
+    height: 16px;
     object-fit: contain;
 }
 
