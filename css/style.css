@@ -76,7 +76,8 @@ button {
 .header__brand {
     display: flex;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
+    width: 100%;
 }
 
 .header__logo {
