@@ -51,9 +51,9 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* corrigido: evita efeito "lado a lado" visual */
+    justify-content: flex-start; /* evita efeito "lado a lado" visual */
     text-align: center;
-    padding: 0 2rem 3rem; /* ajustado para topo real */
+    padding: 1rem 2rem 2.5rem; /* topo pequeno e ajuste do bottom */
     background-color: #fff;
 }
 
@@ -73,17 +73,17 @@ button {
 
 .header__brand {
     width: 100%;
-    display: block; /* garante quebra de linha real */
-    margin-bottom: 3rem;
+    display: block; 
+    margin-bottom: 1.5rem; 
 }
 
 .header__logo {
-    width: 300px;
+    width: 450px;
     max-width: 100%;
     height: auto;
     object-fit: contain;
     display: block;
-    margin: 0 auto; /* centraliza sem flex */
+    margin: 0 auto; 
 }
 
 /* Título principal */
@@ -111,14 +111,14 @@ button {
     margin-bottom: 2rem;
 }
 
-/* ==========================================================================
+/* ========================================================================== 
    Navigation
    ========================================================================== */
 
 .nav {
     width: 100%;
-    margin-top: 2rem;
-    display: block; /* força separação da imagem */
+    margin-top: 1rem; 
+    display: block; 
 }
 
 .nav__list {
@@ -128,7 +128,6 @@ button {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .nav__link {
     font-size: 1.1rem;
     font-weight: 400;
