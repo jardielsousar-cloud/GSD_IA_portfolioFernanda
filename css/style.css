@@ -14,6 +14,7 @@ html {
 }
 
 body {
+    padding-top: 120px; /* ajustar de acordo com a altura real do header */
     font-family: 'Georgia', serif;
     line-height: 1.6;
     color: #333;
@@ -46,15 +47,25 @@ button {
 /* =============================================================
    Header
    ============================================================== */
-.header {
+/* .header {
     min-height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* evita efeito "lado a lado" visual */
+    justify-content: flex-start; 
     text-align: center;
-    padding: 1rem 2rem 2.5rem; /* topo pequeno e ajuste do bottom */
+    padding: 1rem 2rem 2.5rem; 
     background-color: #fff;
+} */
+
+.header {
+    position: fixed;   /* fixa o header na tela */
+    top: 0;            /* topo da página */
+    left: 0;           /* esquerda da tela */
+    width: 100%;       /* ocupa toda a largura */
+    z-index: 1000;     /* garante que fique acima do conteúdo */
+    background-color: #fff; /* mantém fundo branco */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* opcional: sombra suave */
 }
 
 .header--simple {
