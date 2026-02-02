@@ -111,14 +111,14 @@ button {
     margin-bottom: 2rem;
 }
 
-.hero__image {
-    width: 80%;          /* limita horizontalmente */
-    max-width: 1000px;   /* evita ficar gigante em telas grandes */
-    height: auto;        /* mantém proporção */
-    display: block;      /* remove comportamento inline */
-    margin: 0 auto 2rem; /* 0 topo, auto horizontal, 2rem embaixo */
-    border-radius: 4px;  /* opcional, borda arredondada */
-}
+/* .hero__image {
+    width: 80%;          
+    max-width: 1000px;   
+    height: auto;        
+    display: block;     
+    margin: 0 auto 2rem; 
+    border-radius: 4px;  
+} */
 
 /* ========================================================================== 
    Navigation
