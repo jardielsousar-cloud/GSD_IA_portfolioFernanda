@@ -111,6 +111,15 @@ button {
     margin-bottom: 2rem;
 }
 
+.hero__image {
+    width: 80%;          /* limita horizontalmente */
+    max-width: 1000px;   /* tamanho máximo em telas grandes */
+    height: auto;        /* mantém proporção */
+    display: block;      /* remove comportamento inline */
+    margin: 2rem auto;   /* margens brancas em cima e embaixo, centraliza horizontalmente */
+    border-radius: 4px;  /* opcional: borda levemente arredondada */
+}
+
 /* ========================================================================== 
    Navigation
    ========================================================================== */
