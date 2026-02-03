@@ -684,7 +684,7 @@ button {
 .text-page {
     max-width: 800px;
     margin: 0 auto;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem 3rem; /* menos espaço no topo */
 }
 
 .text-page__content {
@@ -703,7 +703,7 @@ button {
     font-size: clamp(1.2rem, 3vw, 1.5rem);
     font-weight: 300;
     color: #666;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem; /* reduzido */
     text-align: center;
 }
 
@@ -717,8 +717,8 @@ button {
 .text-page__text h3 {
     font-size: 1.6rem;
     font-weight: 500;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem; /* bem menor que antes */
+    margin-bottom: 1.25rem;
     letter-spacing: 0.02em;
 }
 
