@@ -14,7 +14,6 @@ html {
 }
 
 body {
-    padding-top: 120px; 
     font-family: 'Georgia', serif;
     line-height: 1.6;
     color: #333;
@@ -47,25 +46,15 @@ button {
 /* =============================================================
    Header
    ============================================================== */
-/* .header {
+.header {
     min-height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; 
+    justify-content: flex-start; /* evita efeito "lado a lado" visual */
     text-align: center;
-    padding: 1rem 2rem 2.5rem; 
+    padding: 1rem 2rem 2.5rem; /* topo pequeno e ajuste do bottom */
     background-color: #fff;
-} */
-
-.header {
-    position: fixed;   /* fixa o header na tela */
-    top: 0;            /* topo da página */
-    left: 0;           /* esquerda da tela */
-    width: 100%;       /* ocupa toda a largura */
-    z-index: 1000;     /* garante que fique acima do conteúdo */
-    background-color: #fff; /* mantém fundo branco */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* opcional: sombra suave */
 }
 
 .header--simple {
@@ -178,10 +167,9 @@ button {
 
 .hero {
     width: 100%;
-    min-height: 100vh;   /* mantém altura grande */
-    margin-top: 0;       /* evita margem extra */
-    padding-top: 120px;  /* desloca o conteúdo abaixo do header fixo */
-    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
 
 .hero__image {
