@@ -24,7 +24,7 @@
       "technique": "Scanner de impressora",
       "year": "2025",
       "status": "Disponível",
-      "price": ""
+      "price": "-"
     },
     {
       "id": 3,
@@ -37,7 +37,33 @@
       "technique": "Maneira Negra e chine collé",
       "year": "2025",
       "status": "Disponível",
-      "price": "100"
+      "price": "-"
+    },
+    {
+      "id": 4,
+      "title": "Vestígios",
+      "description": "Exploração",
+      "shortDescription": "2025",
+      "image": "images/obras/obra4.jpg",
+      "thumbnail": "images/obras/obra4-thumb.jpg",
+      "dimensions": "2000x85cm",
+      "technique": "Xilogravura sobre papel arroz",
+      "year": "2025",
+      "status": "-",
+      "price": "-"
+    },
+    {
+      "id": 5,
+      "title": "Fio umbilical",
+      "description": "Exploração",
+      "shortDescription": "2025",
+      "image": "images/obras/obra5.jpg",
+      "thumbnail": "images/obras/obra5-thumb.jpg",
+      "dimensions": "59,4x42 cm",
+      "technique": " Litogravura iluminada e Aquarela winsor sobre Canson 200g)",
+      "year": "2025",
+      "status": "-",
+      "price": "-"
     }
   ]
 }
