@@ -2,39 +2,38 @@
   "obras": [
     {
       "id": 1,
-      "title": "Maria Migalhinha",
-      "description": "Esta é uma descrição detalhada da obra que aparecerá no modal quando clicar. Aqui você pode colocar toda a história, inspiração e significado da obra.",
-      "shortDescription": "Descrição curta para hover",
-      "image": "images/IMG_3999.JPEG",
-      "thumbnail": "images/obras/obra3.jpeg",
+      "title": "Entre andares",
+      // "description": "Esta é uma descrição detalhada da obra que aparecerá no modal quando clicar. Aqui você pode colocar toda a história, inspiração e significado da obra.",
+      "shortDescription": "Entre andares - 2022",
+      "image": "images/obras/obra1.jpg",
+      // "thumbnail": "images/obras/obra1-thumb.jpg",
       "dimensions": "80x100cm",
-      "technique": "Óleo sobre tela",
-      "year": "2025",
-      "status": "Disponível",
-      "price": "R$ 5.000"
+      "technique": "Acrílica sobre tela",
+      "year": "2022",
+      "status": "Indisponível"
+      // "price": "R$ 5.000"
     },
     {
       "id": 2,
-      "title": "Obra Exemplo 2",
-      "description": "Cada obra pode ter sua própria descrição personalizada, com informações únicas sobre o processo criativo, materiais utilizados e inspiração.",
-      "shortDescription": "Breve descrição",
-      "image": "images/IMG_3999.JPEG",
-      "thumbnail": "images/obras/obra3.jpeg",
-      "dimensions": "60x80cm",
-      "technique": "Aquarela",
-      "year": "2024",
-      "status": "Vendida"
+      "title": "Todas as formas que (des) aprendi a ter",
+      "shortDescription": "Todas as formas que (des) aprendi a ter",
+      "image": "images/obras/obra2.jpg",
+      // "thumbnail": "images/obras/obra2-thumb.jpeg",
+      "technique": "Água forte sob papel Mi-Teintes 160g/m",
+      "year": "2025",
+      "status": "Disponivel"
     },
     {
       "id": 3,
-      "title": "Maria Migalhinha",
-      "description": "Você pode incluir ou omitir campos conforme necessário para cada obra. Por exemplo, esta obra não tem preço listado.",
-      "shortDescription": "Sem preço listado",
-      "image": "images/obras/obra3.jpeg",
+      "title": "Vestígios",
+      // "description": "Você pode incluir ou omitir campos conforme necessário para cada obra. Por exemplo, esta obra não tem preço listado.",
+      "shortDescription": "Vestígios - 2025",
+      "image": "images/obras/obra3.jpg",
       "thumbnail": "images/obras/obra3-thumb.jpg",
-      "technique": "Técnica mista",
-      "year": "2025",
-      "status": "Em exposição"
+      "dimensions": "2000x85cm",
+      "technique": "Xilogravura sob Papel Arroz",
+      "year": "2025"
+      // "status": "Em exposição"
     }
   ]
 }
