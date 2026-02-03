@@ -1,43 +1,43 @@
 {
   "obras": [
-{
-  "id": 1,
-  "title": "Nome da Obra",
-  "description": "Descrição completa que aparece no modal",
-  "shortDescription": "Descrição curta para hover",
-  "image": "images/obras/obra1.jpg",
-  "thumbnail": "images/obras/obra1-thumb.jpg",
-  "dimensions": "80x100cm",
-  "technique": "Óleo sobre tela",
-  "year": "2025",
-  "status": "Disponível",
-  "price": ""
-},
- {
-  "id": 1,
-  "title": "Nome da Obra",
-  "description": "Descrição completa que aparece no modal",
-  "shortDescription": "Descrição curta para hover",
-  "image": "images/obras/obra1.jpg",
-  "thumbnail": "images/obras/obra1-thumb.jpg",
-  "dimensions": "80x100cm",
-  "technique": "Óleo sobre tela",
-  "year": "2025",
-  "status": "Disponível",
-  "price": 
-},
-{
-  "id": 1,
-  "title": "Nome da Obra",
-  "description": "Descrição completa que aparece no modal",
-  "shortDescription": "Descrição curta para hover",
-  "image": "images/obras/obra1.jpg",
-  "thumbnail": "images/obras/obra1-thumb.jpg",
-  "dimensions": "80x100cm",
-  "technique": "Óleo sobre tela",
-  "year": "2025",
-  "status": "Disponível",
-  "price": "R$ 5.000"
-}
+    {
+      "id": 1,
+      "title": "Entre andares",
+      "description": "",
+      "shortDescription": "Entre andares - 2022",
+      "image": "images/obras/obra1.jpg",
+      "thumbnail": "",
+      "dimensions": "",
+      "technique": "Acrílica sobre tela",
+      "year": "2022",
+      "status": "Indisponível",
+      "price": ""
+    },
+    {
+      "id": 2,
+      "title": "Nome da Obra",
+      "description": "Descrição completa que aparece no modal",
+      "shortDescription": "Descrição curta para hover",
+      "image": "images/obras/obra1.jpg",
+      "thumbnail": "images/obras/obra1-thumb.jpg",
+      "dimensions": "80x100cm",
+      "technique": "Óleo sobre tela",
+      "year": "2025",
+      "status": "Disponível",
+      "price": ""
+    },
+    {
+      "id": 3,
+      "title": "Nome da Obra",
+      "description": "Descrição completa que aparece no modal",
+      "shortDescription": "Descrição curta para hover",
+      "image": "images/obras/obra1.jpg",
+      "thumbnail": "images/obras/obra1-thumb.jpg",
+      "dimensions": "80x100cm",
+      "technique": "Óleo sobre tela",
+      "year": "2025",
+      "status": "Disponível",
+      "price": "R$ 5.000"
+    }
   ]
 }
