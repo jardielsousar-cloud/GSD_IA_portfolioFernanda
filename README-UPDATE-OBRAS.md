@@ -4,13 +4,17 @@ Este script automatiza a atualização dos arquivos HTML individuais das obras a
 
 ## 📋 O que o script faz?
 
-O script `update-obras.js` lê o arquivo `data/obras.json` e atualiza automaticamente os arquivos HTML individuais (`obra-1.html`, `obra-2.html`, etc.) com as seguintes informações:
+O script `update-obras.js` lê o arquivo `data/obras.json` e atualiza automaticamente:
 
-- **Título** da obra
-- **Técnica** utilizada
-- **Ano** de criação
-- **Status** (Disponível/Indisponível)
-- **Imagem** principal
+**Arquivos HTML individuais** (`obra-1.html`, `obra-2.html`, etc.):
+- Título, Técnica, Ano, Status
+- Dimensões, Preço (se houver)
+- Descrição completa
+- Imagem principal
+
+**Galeria principal** (`obras.html`) via `gallery.js`:
+- Thumbnail (ou imagem se não houver thumbnail)
+- ShortDescription (para hover)
 
 ## 🚀 Como usar
 
@@ -24,10 +28,15 @@ Primeiro, atualize o arquivo `data/obras.json` com as informações das suas obr
     {
       "id": 1,
       "title": "Nome da Obra",
+      "description": "Descrição completa (aparece na sub-página)",
+      "shortDescription": "Descrição curta (hover na galeria)",
+      "image": "images/obras/obra1.jpg",
+      "thumbnail": "images/obras/obra1-thumb.jpg",
+      "dimensions": "80x100cm",
       "technique": "Óleo sobre tela",
       "year": "2025",
       "status": "Disponível",
-      "image": "images/obras/obra1.jpg"
+      "price": "R$ 5.000"
     }
   ]
 }
