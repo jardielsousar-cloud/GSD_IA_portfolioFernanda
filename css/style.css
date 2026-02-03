@@ -203,8 +203,8 @@ button {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
     padding: 1rem;
 }
 
@@ -216,18 +216,13 @@ button {
     border-radius: 4px;
 }
 
-/* Irregular sizes */
-.gallery__item:nth-child(3n+1) {
-    grid-column: span 1;
+/* Irregular sizes – variação mais sutil */
+.gallery__item:nth-child(4n+2) {
+    grid-column: span 2;
     grid-row: span 1;
 }
 
-.gallery__item:nth-child(4n+2) {
-    grid-column: span 2;
-    grid-row: span 2;
-}
-
-.gallery__item:nth-child(5n+3) {
+.gallery__item:nth-child(6n+3) {
     grid-column: span 1;
     grid-row: span 2;
 }
