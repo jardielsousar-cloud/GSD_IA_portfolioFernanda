@@ -1,0 +1,17 @@
+{
+  "name": "maria-fernanda-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio de obras de Maria Fernanda",
+  "main": "index.html",
+  "scripts": {
+    "update-obras": "node update-obras.js",
+    "update": "node update-obras.js"
+  },
+  "keywords": [
+    "portfolio",
+    "arte",
+    "obras"
+  ],
+  "author": "Maria Fernanda",
+  "license": "ISC"
+}
