@@ -54,7 +54,7 @@ button {
     justify-content: flex-start; /* evita efeito "lado a lado" visual */
     text-align: center;
     padding: 1rem 2rem 2.5rem; /* topo pequeno e ajuste do bottom */
-    background-color: #fff;
+    background-color: #e8f5e9;
 }
 
 .header--simple {
