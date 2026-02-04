@@ -1,0 +1,34 @@
+A referência: https://www.theconsciousink.com/home
+
+Home: 
+
+Essa aba é estática e contém os menus: "Home", "Obras", "Exposições", "Contato", todos são clicáveis e terão sua própria página. 
+
+Essa página estática também vai ter o texto "Maria Fernanda" centralizado na parte de cima da tela com letras grossas e em letras menores e logo abaixo "Arte educadora e Artista". Em seguidas vem os menus, também centralizados e espaçados. Logo abaixo um espaço para uma foto grande e que ocupe o restante da primeira página estática. (Assim como o site de referência).
+
+Use como referência: https://www.theconsciousink.com/home
+
+
+Obras:
+
+Nessa aba quero uma galeria de fotos, elas estarão dispostas de forma a ter diferentes espaços entre elas, como em uma parede com diferentes quadros pendurados. Ao passar o mouse em cima da foto ela fica borrada e um texto aparece com o título da obra e a descrição.  A foto pode ser clicada para ocupar uma área maior da tela, então os dados (título e descrição) ficam logo abaixo dela.
+
+Use como referência: https://www.adamhalls.co.uk/gallery
+
+Exposições:
+
+Nessa aba quero uma galeria de fotos, ao passar o mouse em cima da foto ela fica borrada e um texto aparece com o título da obra e a descrição. A foto pode ser clicada para ocupar uma área maior da tela, então os dados (título e descrição) ficam logo abaixo dela.
+
+Use como referência: https://www.adamhalls.co.uk/gallery
+
+Contato:
+
+Uma nova janela se abre com uma foto à esquerda e a direita os campos "Nome", "Email", "Telefone", "Mensagem". Sendo que é obrigatório colocar apenas o nome/email e a mensagem. No final um botão "Enviar" que irá direcionar a mensagem para meu email.
+
+Use como referência: https://www.adamhalls.co.uk/contact
+
+Recursos adicionais: 
+
+O rodapé deverá conter pequenas logos das redes sociais que irão direcionar o usuário com um link para uma página externa. As logos serão do Instagram e Linkedin. Na frente um pequeno texto "Maria Fernanda 2026"
+
+Assim que o site abrir incluir um "Pop Up" para newsletter, o texto será "Quer saber em quais feiras e exposições estarei presente? Me mande o seu email", em seguida um campo para o email ser inserido pelo usuário e no rodapé estará escrito "Prometo que só vou mandar mensagens importantes!". O email inserido pelo usuário é enviado para meu próprio email pessoal.
