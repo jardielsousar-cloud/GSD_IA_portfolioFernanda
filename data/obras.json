@@ -26,22 +26,22 @@
       "papel": "Cochê fosco 180g",
       "dimensions": "29,7x42cm",
       "manchaGrafica": "-",
-      "tiragem": "1 edição de 6 cópias",
+      "tiragem": "1 edição com 6 cópias",
       "year": "2025",
       "status": "Disponível"
     },
     {
       "id": 3,
-      "title": "Casa Móvel",
+      "title": "O suficiente",
       "description": "Exploração",
       "shortDescription": "2025",
       "image": "images/obras/obra3.jpg",
       "thumbnail": "images/obras/obra3-thumb.jpg",
-      "technique": "Maneira Negra e chine collé",
-      "papel": "-",
-      "dimensions": "19,3x16,4cm",
-      "manchaGrafica": "-",
-      "tiragem": "-",
+      "technique": "Serigrafia duas cores (Dourado e violeta)",
+      "papel": "Canson creme 200g",
+      "dimensions": "42x29,7cm",
+      "manchaGrafica": "41x28,5cm",
+      "tiragem": "1 edição com 8 cópias",
       "year": "2025",
       "status": "Disponível"
     },
@@ -52,13 +52,13 @@
       "shortDescription": "2025",
       "image": "images/obras/obra4.jpg",
       "thumbnail": "images/obras/obra4-thumb.jpg",
-      "technique": "Xilogravura sobre papel arroz",
-      "papel": "-",
+      "technique": "Xilogravura",
+      "papel": "Papel oriental Wenzou",
       "dimensions": "2000x85cm",
       "manchaGrafica": "-",
-      "tiragem": "-",
+      "tiragem": "P.A",
       "year": "2025",
-      "status": "-"
+      "status": "Indisponível"
     },
     {
       "id": 5,
@@ -67,13 +67,13 @@
       "shortDescription": "2025",
       "image": "images/obras/obra5.jpg",
       "thumbnail": "images/obras/obra5-thumb.jpg",
-      "technique": "Litogravura iluminada e Aquarela winsor sobre Canson 200g",
-      "papel": "-",
+      "technique": "Litogravura iluminada e Aquarela Winsor ",
+      "papel": "Canson branco 200g",
       "dimensions": "59,4x42 cm",
-      "manchaGrafica": "-",
-      "tiragem": "-",
+      "manchaGrafica": "46,5x29,5cm",
+      "tiragem": "1 edição com 8 cópias",
       "year": "2025",
-      "status": "-"
+      "status": "Disponível"
     }
   ]
 }
