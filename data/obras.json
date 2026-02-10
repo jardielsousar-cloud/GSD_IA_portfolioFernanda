@@ -4,14 +4,13 @@
       "id": 1,
       "title": "Entre andares",
       "description": "Acrílica sobre tela",
-      "shortDescription": "Entre andares - 2022",
+      "shortDescription": "2024",
       "image": "images/obras/obra1.jpg",
       "thumbnail": "images/obras/obra1-thumb.jpg",
-      "dimensions": "",
+      "dimensions": "120x60cm",
       "technique": "Acrílica sobre tela",
-      "year": "2022",
-      "status": "Indisponível",
-      "price": ""
+      "year": "2024",
+      "status": "Indisponível"
     },
     {
       "id": 2,
@@ -23,8 +22,7 @@
       "dimensions": "",
       "technique": "Scanner de impressora",
       "year": "2025",
-      "status": "Disponível",
-      "price": "-"
+      "status": "Disponível"
     },
     {
       "id": 3,
@@ -36,8 +34,7 @@
       "dimensions": "19,3x16,4cm",
       "technique": "Maneira Negra e chine collé",
       "year": "2025",
-      "status": "Disponível",
-      "price": "-"
+      "status": "Disponível"
     },
     {
       "id": 4,
@@ -49,8 +46,7 @@
       "dimensions": "2000x85cm",
       "technique": "Xilogravura sobre papel arroz",
       "year": "2025",
-      "status": "-",
-      "price": "-"
+      "status": "-"
     },
     {
       "id": 5,
@@ -60,10 +56,9 @@
       "image": "images/obras/obra5.jpg",
       "thumbnail": "images/obras/obra5-thumb.jpg",
       "dimensions": "59,4x42 cm",
-      "technique": " Litogravura iluminada e Aquarela winsor sobre Canson 200g)",
+      "technique": "Litogravura iluminada e Aquarela winsor sobre Canson 200g",
       "year": "2025",
-      "status": "-",
-      "price": "-"
+      "status": "-"
     }
   ]
 }
