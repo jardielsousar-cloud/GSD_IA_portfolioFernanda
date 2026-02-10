@@ -28,6 +28,22 @@ function updateHTML(htmlContent, obra) {
     const techniqueRegex = /(<p><strong>Técnica:<\/strong>\s*)[^<]*(<\/p>)/;
     updated = updated.replace(techniqueRegex, '$1' + (obra.technique || '-') + '$2');
 
+    // Atualizar papel
+    const papelRegex = /(<p><strong>Papel:<\/strong>\s*)[^<]*(<\/p>)/;
+    updated = updated.replace(papelRegex, '$1' + (obra.papel || '-') + '$2');
+
+    // Atualizar dimensões
+    const dimensionsRegex = /(<p><strong>Dimensões:<\/strong>\s*)[^<]*(<\/p>)/;
+    updated = updated.replace(dimensionsRegex, '$1' + (obra.dimensions || '-') + '$2');
+
+    // Atualizar mancha gráfica
+    const manchaRegex = /(<p><strong>Mancha gráfica:<\/strong>\s*)[^<]*(<\/p>)/;
+    updated = updated.replace(manchaRegex, '$1' + (obra.manchaGrafica || '-') + '$2');
+
+    // Atualizar tiragem
+    const tiragemRegex = /(<p><strong>Tiragem:<\/strong>\s*)[^<]*(<\/p>)/;
+    updated = updated.replace(tiragemRegex, '$1' + (obra.tiragem || '-') + '$2');
+
     // Atualizar ano
     const yearRegex = /(<p><strong>Ano:<\/strong>\s*)[^<]*(<\/p>)/;
     updated = updated.replace(yearRegex, '$1' + (obra.year || '-') + '$2');
@@ -35,26 +51,6 @@ function updateHTML(htmlContent, obra) {
     // Atualizar status
     const statusRegex = /(<p><strong>Status:<\/strong>\s*)[^<]*(<\/p>)/;
     updated = updated.replace(statusRegex, '$1' + (obra.status || '-') + '$2');
-
-    // Adicionar ou atualizar dimensões (após status)
-    if (!updated.includes('<strong>Dimensões:</strong>')) {
-        const statusLine = /(<p><strong>Status:<\/strong>[^<]*<\/p>)/;
-        updated = updated.replace(statusLine, '$1\n                <p><strong>Dimensões:</strong> ' + (obra.dimensions || '-') + '</p>');
-    } else {
-        const dimensionsRegex = /(<p><strong>Dimensões:<\/strong>\s*)[^<]*(<\/p>)/;
-        updated = updated.replace(dimensionsRegex, '$1' + (obra.dimensions || '-') + '$2');
-    }
-
-    // Adicionar ou atualizar preço (após dimensões, se houver preço)
-    if (obra.price) {
-        if (!updated.includes('<strong>Preço:</strong>')) {
-            const dimensionsLine = /(<p><strong>Dimensões:<\/strong>[^<]*<\/p>)/;
-            updated = updated.replace(dimensionsLine, '$1\n                <p><strong>Preço:</strong> ' + obra.price + '</p>');
-        } else {
-            const priceRegex = /(<p><strong>Preço:<\/strong>\s*)[^<]*(<\/p>)/;
-            updated = updated.replace(priceRegex, '$1' + obra.price + '$2');
-        }
-    }
 
     // Atualizar descrição (descomentar e adicionar conteúdo)
     if (obra.description) {
@@ -111,7 +107,9 @@ function main() {
             console.log(`✅ ${htmlFileName} atualizado!`);
             if (obra.description) console.log(`   - Descrição: ${obra.description.substring(0, 40)}...`);
             if (obra.dimensions) console.log(`   - Dimensões: ${obra.dimensions}`);
-            if (obra.price) console.log(`   - Preço: ${obra.price}\n`);
+            if (obra.papel) console.log(`   - Papel: ${obra.papel}`);
+            if (obra.manchaGrafica) console.log(`   - Mancha gráfica: ${obra.manchaGrafica}`);
+            if (obra.tiragem) console.log(`   - Tiragem: ${obra.tiragem}\n`);
 
             successCount++;
         } catch (error) {
